@@ -1,5 +1,12 @@
+
+/* Your CSS Code here. */
 .holder {
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
-/* Your CSS Code here. */
+
+.item {
+	flex-basis: calc(33% - 10px);
+	margin-bottom: 10px;
+}
